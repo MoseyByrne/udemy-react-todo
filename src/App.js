@@ -6,10 +6,10 @@ function App() {
   return (
     <div>
       <h2>To Do!</h2>
-      <ToDo />
-      <ToDo />
-      <ToDo />
-      <ToDo />
+      <ToDo text="understand props"/>
+      <ToDo text="Learn NextJS"/>
+      <ToDo text="Eat pizza"/>
+      <ToDo text="Make badass websites"/>
     </div>
   );
 }
